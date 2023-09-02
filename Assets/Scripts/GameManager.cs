@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -30,5 +31,15 @@ public class GameManager : MonoBehaviour
             string[] datas = lines[i].Split(',');
             Cards.Add(datas[0], datas[1]);
         }
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void ToPlayer()
+    {
+        SceneManager.LoadScene("Player");
     }
 }
