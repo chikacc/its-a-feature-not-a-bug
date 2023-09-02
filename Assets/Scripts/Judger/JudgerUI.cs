@@ -24,10 +24,28 @@ public class JudgerUI : MonoBehaviour
 
     public void OnConfirmInput()
     {
-        if (!GameManager.Instance.ConditionCards.TryGetValue(inputField.text, out var des))
+        string des;
+
+        switch (selectCard.Type)
         {
-            errorUI.SetActive(true);
-            return;
+            case PlayerCard.CardType.Action:
+                {
+                    if (!GameManager.Instance.ActionCards.TryGetValue(inputField.text, out des))
+                    {
+                        errorUI.SetActive(true);
+                        return;
+                    }
+                }
+                break;
+            default:
+                {
+                    if (!GameManager.Instance.ConditionCards.TryGetValue(inputField.text, out des))
+                    {
+                        errorUI.SetActive(true);
+                        return;
+                    }
+                }
+                break;
         }
 
         selectCard.Show(inputField.text, des);

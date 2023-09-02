@@ -13,6 +13,15 @@ public class PlayerCard : MonoBehaviour
     [SerializeField]
     private Button button;
 
+    public enum CardType
+    {
+        Condition,
+        Action
+    }
+
+    [SerializeField]
+    public CardType Type;
+
     public void Show(string id, string depiction)
     {
         idText.text = id;
