@@ -9,6 +9,8 @@ public class JudgerUI : MonoBehaviour
     [SerializeField]
     private GameObject inputUI;
     [SerializeField]
+    private GameObject errorUI;
+    [SerializeField]
     private TMP_InputField inputField;
 
     private PlayerCard selectCard;
@@ -24,7 +26,7 @@ public class JudgerUI : MonoBehaviour
     {
         if (!GameManager.Instance.ConditionCards.TryGetValue(inputField.text, out var des))
         {
-            //TODO: show error
+            errorUI.SetActive(true);
             return;
         }
 
