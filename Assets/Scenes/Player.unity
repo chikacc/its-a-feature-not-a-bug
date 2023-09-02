@@ -1075,6 +1075,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 971079538}
     m_Modifications:
+    - target: {fileID: 627120415700910942, guid: c577b3977cff0634d886d200aa864e5d, type: 3}
+      propertyPath: m_text
+      value: Designer B
+      objectReference: {fileID: 0}
     - target: {fileID: 627120415759576909, guid: c577b3977cff0634d886d200aa864e5d, type: 3}
       propertyPath: m_Name
       value: DesignerB

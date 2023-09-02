@@ -6,11 +6,15 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    private TextAsset data;
+    private TextAsset conditionCardsData;
+    [SerializeField]
+    private TextAsset actionCardsData;
 
     public static GameManager Instance;
 
-    public Dictionary<string, string> Cards = new();
+    public Dictionary<string, string> ConditionCards { get; private set; } = new();
+
+    public Dictionary<string, string> ActionCards { get; private set; } = new();
 
     private void Awake()
     {
@@ -24,12 +28,20 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        string[] lines = data.text.Split("\r\n");
+        string[] lines = conditionCardsData.text.Split("\r\n");
 
         for(int i = 0; i < lines.Length; i++)
         {
             string[] datas = lines[i].Split(',');
-            Cards.Add(datas[0], datas[1]);
+            ConditionCards.Add(datas[0], datas[1]);
+        }
+
+        lines = actionCardsData.text.Split("\r\n");
+
+        for (int i = 0; i < lines.Length; i++)
+        {
+            string[] datas = lines[i].Split(',');
+            ActionCards.Add(datas[0], datas[1]);
         }
     }
 

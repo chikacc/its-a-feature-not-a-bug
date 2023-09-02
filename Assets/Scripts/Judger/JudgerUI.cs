@@ -22,7 +22,7 @@ public class JudgerUI : MonoBehaviour
 
     public void OnConfirmInput()
     {
-        if (!GameManager.Instance.Cards.TryGetValue(inputField.text, out var des))
+        if (!GameManager.Instance.ConditionCards.TryGetValue(inputField.text, out var des))
         {
             //TODO: show error
             return;
