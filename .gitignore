@@ -75,3 +75,13 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /*.vsconfig
+
+# JetBrains Rider
+.idea/
+*.DotSettings*
+
+# Unity packages
+Packages/packages-lock.json
+
+# Unity UI Toolkit
+UIElementsSchema/
