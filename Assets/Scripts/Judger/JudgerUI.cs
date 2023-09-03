@@ -22,6 +22,10 @@ public class JudgerUI : MonoBehaviour
     private void Start()
     {
         pageIndex = 0;
+        foreach(var p in pages)
+        {
+            p.Hide();
+        }
         pages[0].Show();
     }
 
