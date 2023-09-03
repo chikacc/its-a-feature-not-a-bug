@@ -12,8 +12,18 @@ public class JudgerUI : MonoBehaviour
     private GameObject errorUI;
     [SerializeField]
     private TMP_InputField inputField;
+    [SerializeField]
+    private TipPage[] pages;
 
     private PlayerCard selectCard;
+
+    int pageIndex = 0;
+
+    private void Start()
+    {
+        pageIndex = 0;
+        pages[0].Show();
+    }
 
     public void OnCardClick(PlayerCard playerCard)
     {
@@ -52,8 +62,16 @@ public class JudgerUI : MonoBehaviour
         inputUI.SetActive(false);
     }
 
-    public void BackToMenu()
+    public void NextPage()
     {
-        GameManager.Instance.BackToMenu();
+        pageIndex++;
+
+        if(pageIndex >= pages.Length)
+        {
+            return;
+        }
+
+        pages[pageIndex - 1].Hide();
+        pages[pageIndex].Show();
     }
 }
