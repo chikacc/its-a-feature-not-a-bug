@@ -15,6 +15,12 @@ public class CardCollection : MonoBehaviour
         OnCardsChanged?.Invoke(cards);
     }
 
+    public void UpdateCard(int index, Card newCard)
+    {
+        cards[index] = newCard;
+        OnCardsChanged?.Invoke(cards);
+    }
+
     public IReadOnlyList<Card> GetCards()
     {
         return cards;

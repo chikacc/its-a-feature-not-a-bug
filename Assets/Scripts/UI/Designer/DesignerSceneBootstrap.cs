@@ -8,6 +8,11 @@ class DesignerSceneBootstrap : MonoBehaviour
 
     private void Start()
     {
+        if (GameManager.Instance == null)
+        {
+            return;
+        }
+
         conditionDatabase.Initialize(GameManager.Instance.ConditionCards.Select(x => new Card(x.Key, x.Value)));
         actionDatabase.Initialize(GameManager.Instance.ActionCards.Select(x => new Card(x.Key, x.Value)));
     }
