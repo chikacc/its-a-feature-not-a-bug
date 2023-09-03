@@ -66,4 +66,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Player");
     }
+
+    public void ToDesigner()
+    {
+        SceneManager.LoadScene("Designer");
+    }
 }
