@@ -8,7 +8,7 @@ public class CardDisplay : MonoBehaviour
 
     public void SetCard(Card card)
     {
-        id.text = $"ID: {card.Id}";
-        description.text = $"Depiction: {card.Description}";
+        id.text = card.Id;
+        description.text = card.Description;
     }
 }
