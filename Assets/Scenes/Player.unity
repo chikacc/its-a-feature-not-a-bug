@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7006103285968222784, guid: b3f8faf1a145a39439bc54f570061228, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7006103285968222785, guid: b3f8faf1a145a39439bc54f570061228, type: 3}
       propertyPath: m_Pivot.x
@@ -4107,7 +4107,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7006103285968222784, guid: b3f8faf1a145a39439bc54f570061228, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7006103285968222785, guid: b3f8faf1a145a39439bc54f570061228, type: 3}
       propertyPath: m_Pivot.x
@@ -4238,6 +4238,14 @@ PrefabInstance:
       value: "- \u8ACB\u8A2D\u8A08\u5E2B\u78BA\u8A8D\u84CB\u4F4F\u7684\u724C\n- \u8A2D\u8A08\u5E2B\u53EF\u4EE5\u4EA4\u63DB\u81EA\u5DF1\u7684\u689D\u4EF6\u724C\n-
         \u8ACBB\u968A\u8AAA\u660E \u9019\u4E0D\u662F Bug\uFF0C\u662F Feature!\n-
         \u5012\u6578\u6B78\u96F6\u6642\uFF0CB\u968A\u8AAA\u660E\u7D50\u675F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7006103287192473729, guid: b3f8faf1a145a39439bc54f570061228, type: 3}
+      propertyPath: m_fontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7006103287192473729, guid: b3f8faf1a145a39439bc54f570061228, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7006103287477446645, guid: b3f8faf1a145a39439bc54f570061228, type: 3}
       propertyPath: m_text
