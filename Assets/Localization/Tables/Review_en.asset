@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Review_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d3f06e317aa6afc4d9c238dad619fcbd, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5556885419851776
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5558028409634816
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6635826737971200
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6636264119992320
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26451378307072
+    m_Localized: Preparation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26516478099456
+    m_Localized: '- Please divide into two teams first.
+
+      - One member from
+      each team opens the app and selects "I am the designer."
+
+      - The designers
+      should press the "Draw Card" button and wait for instructions.
+
+      - After
+      both sides have drawn cards, the critic should press "Market Research."
+
+      -
+      Please divide into two teams first.
+
+      - One member from each team opens
+      the app and selects "I am the designer."
+
+      - The designers should press
+      the "Draw Card" button and wait for instructions.
+
+      - After both sides
+      have drawn cards, the critic should press "Market Research."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26519279894528
+    m_Localized: Survey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29792174997504
+    m_Localized: Survey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40306875695104
+    m_Localized: '- Please tell the designer team what game you want to play.
+
+      (Game
+      type, preferences, recently played games, etc.)
+
+      - When the countdown
+      reaches zero, both sides should press "Reveal Card."'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40311678173184
+    m_Localized: Development
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42073835307008
+    m_Localized: Development
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42518834184192
+    m_Localized: '- Remind the designers that they can investigate player preferences
+      with questions.
+
+      - Before the countdown reaches zero, both teams should
+      press "Design Complete."
+
+      - Please inform each other of the card numbers
+      you will present.
+
+      - Before reaching Team A, press "Start Explanation"
+      together.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42570377986048
+    m_Localized: Team A Release
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42931306233856
+    m_Localized: Team A Release
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42983542095872
+    m_Localized: "- Ask the designer to confirm the covered cards.\r\n- Designers
+      can exchange their condition cards.\r\n- Team A should explain, \"This is not
+      a bug; it's a feature!\" \r\n- When the countdown reaches zero, Team A's explanation
+      ends.- Ask the designer to confirm the covered cards.\r\n- Designers can exchange
+      their condition cards.\r\n- Team A should explain, \"This is not a bug; it's
+      a feature!\" \r\n- When the countdown reaches zero, Team A's explanation ends."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43000533221376
+    m_Localized: Team B Release
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43109996167168
+    m_Localized: Team B Release
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43118451884032
+    m_Localized: "- Ask the designer to confirm the covered cards.\r\n- Designers
+      can exchange their condition cards.\r\n- Team B should explain, \"This is not
+      a bug; it's a feature!\" \r\n- When the countdown reaches zero, Team B's explanation
+      ends."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43160357175296
+    m_Localized: Final Review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43661056409600
+    m_Localized: Final Review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43678039146496
+    m_Localized: '- Based on both teams'' explanations, announce the winning team.
+
+      (Choose
+      the team with more creativity or reasonableness.)
+
+      - The next round,
+      pass the role of the critic clockwise.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43679750422528
+    m_Localized: Play Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91376117219328
+    m_Localized: You are the Reviewer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91412867710976
+    m_Localized: Please follow the steps below to host the game.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

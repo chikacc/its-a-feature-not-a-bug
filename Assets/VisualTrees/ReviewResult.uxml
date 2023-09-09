@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:fnb="FeatureNotBug.UI">
+    <ui:Button class="flex-grow-1" style="margin: 0; padding: 0; background-color: initial; border-width: 0;">
+        <fnb:LocalizedTextElement class="position-absolute flex-self-center"
+                            style="top: 15%; -unity-font-style: bold; font-size: 100%; -unity-text-align: upper-center; color: rgb(0, 0, 0);"
+                            table-reference="Result" table-entry-reference="Title" />
+    </ui:Button>
+</ui:UXML>

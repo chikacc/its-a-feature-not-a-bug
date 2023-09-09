@@ -1,0 +1,22 @@
+﻿{
+  "name": "FeatureNotBug.UI",
+  "rootNamespace": "FeatureNotBug.UI",
+  "references": [
+    "FeatureNotBug",
+    "UniTask",
+    "UniTask.Addressables",
+    "UniTask.Linq",
+    "Unity.Addressables",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Localization",
+    "Unity.Networking.Transport",
+    "Unity.ResourceManager",
+    "VContainer"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll",
+    "VContainer.SourceGenerator.dll"
+  ]
+}

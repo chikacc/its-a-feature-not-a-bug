@@ -1,0 +1,20 @@
+﻿{
+  "name": "FeatureNotBug",
+  "rootNamespace": "FeatureNotBug",
+  "references": [
+    "UniTask",
+    "UniTask.Addressables",
+    "UniTask.Linq",
+    "Unity.Addressables",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Localization",
+    "Unity.Netcode.Runtime",
+    "Unity.Networking.Transport",
+    "Unity.ResourceManager",
+    "Unity.Services.Authentication",
+    "Unity.Services.Core",
+    "Unity.Services.Relay",
+    "VContainer"
+  ]
+}
