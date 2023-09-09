@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/HostContainer.uss?fileID=7433441132597879392&amp;guid=39002d6837114c50b128cd5612887d4c&amp;type=3#HostContainer" />
+    <ui:VisualElement style="flex-direction: row; height: 288px; margin-top: 32px; margin-right: 32px; margin-bottom: 32px; margin-left: 32px; background-color: rgb(255, 255, 255); border-top-left-radius: 24px; border-top-right-radius: 24px; border-bottom-right-radius: 24px; border-bottom-left-radius: 24px;">
+        <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+            <ui:Label text="#Create Room Description" name="create-room-description" />
+            <ui:Label text="#Join Code Description" name="join-code-description" />
+        </ui:VisualElement>
+        <FeatureNotBug.UI.Elements.AspectRatioElement mode="FitInParent" aspect-ratio="1" name="qr-code-container" style="margin-right: 64px;">
+            <ui:Image name="qr-code" />
+        </FeatureNotBug.UI.Elements.AspectRatioElement>
+    </ui:VisualElement>
+    <ui:ListView name="members" />
+</ui:UXML>

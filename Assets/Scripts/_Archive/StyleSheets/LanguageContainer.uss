@@ -1,0 +1,15 @@
+#next-locale {
+    background-image: url('project://database/Assets/Sprites/Translate.png?fileID=2800000&guid=cdb8eced5625b974a92088448eff1338&type=3#Translate');
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 96px;
+    height: 96px;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}

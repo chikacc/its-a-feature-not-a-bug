@@ -1,0 +1,15 @@
+Button {
+    align-self: center;
+    width: 60%;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding-top: 32px;
+    padding-right: 8px;
+    padding-bottom: 32px;
+    padding-left: 8px;
+    -unity-font-style: bold;
+    font-size: 64px;
+    -unity-text-align: upper-center;
+}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Template name="PressStartContainer" src="project://database/Assets/UI/Templates/PressStartContainer.uxml?fileID=9197481963319205126&amp;guid=cbc5b30a25709684fbcf3c5bac0ac310&amp;type=3#PressStartContainer" />
+    <ui:Template name="LobbyContainer" src="project://database/Assets/UI/Templates/LobbyContainer.uxml?fileID=9197481963319205126&amp;guid=0893780b7080e974e89c2ad5f5d8ddaf&amp;type=3#LobbyContainer" />
+    <ui:Template name="CreateRoomContainer" src="project://database/Assets/UI/Templates/HostContainer.uxml?fileID=9197481963319205126&amp;guid=2d504aabde36ec84e955efc4d9930086&amp;type=3#HostContainer" />
+    <ui:Template name="JoinRoomContainer" src="project://database/Assets/UI/Templates/ClientContainer.uxml?fileID=9197481963319205126&amp;guid=7edf31de22c32f348b937bf471b0d4e2&amp;type=3#ClientContainer" />
+    <Style src="project://database/Assets/UI/StyleSheets/MenuContainer.uss?fileID=7433441132597879392&amp;guid=99508652fabc6e3499cf24764d781b7e&amp;type=3#MenuContainer" />
+    <ui:Instance template="PressStartContainer" name="press-start-container" />
+    <ui:Instance template="LobbyContainer" name="lobby-container" style="display: none;" />
+    <ui:Instance template="CreateRoomContainer" name="host-container" style="display: none;" />
+    <ui:Instance template="JoinRoomContainer" name="client-container" style="display: none;" />
+</ui:UXML>

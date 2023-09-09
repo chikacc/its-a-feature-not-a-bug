@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:fnb="FeatureNotBug.UI">
+    <ui:VisualElement class="flex-row">
+        <ui:TextElement text="- " style="font-size: 50%; color: rgb(128, 128, 128);" />
+        <ui:TextElement name="description" style="font-size: 50%; color: rgb(128, 128, 128);" />
+    </ui:VisualElement>
+</ui:UXML>

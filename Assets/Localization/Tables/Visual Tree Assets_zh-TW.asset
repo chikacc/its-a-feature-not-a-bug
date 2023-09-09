@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: Visual Tree Assets_zh-TW
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh-TW
+  m_SharedData: {fileID: 11400000, guid: f820dcaca9a19bb4dbde15c8d8fdcd39, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9638641664
+    m_Localized: b6b38c92a99d4f3a9f8159c264ecc15e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29259595776
+    m_Localized: b0bbf49dd2ec45178cbc3f450f1b6f59
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49576804352
+    m_Localized: 5ac144eaa7914ef5a5f23b7a5d415c1e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337353252143104
+    m_Localized: 7f57817ed7b24a539d7ecfcd0793e96d
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337367525359616
+    m_Localized: 3bc7993f7ac84a06ac8c9645509c7c62
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

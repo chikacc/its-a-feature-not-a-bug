@@ -1,0 +1,29 @@
+﻿{
+  "name": "FeatureNotBug.UI",
+  "rootNamespace": "FeatureNotBug.UI",
+  "references": [
+    "EditorTools",
+    "FeatureNotBug",
+    "MessagePipe",
+    "MessagePipe.VContainer",
+    "PolySharp",
+    "Ulid",
+    "UniTask",
+    "UniTask.Addressables",
+    "UniTask.Linq",
+    "Unity.Addressables",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Localization",
+    "Unity.Logging",
+    "Unity.Netcode.Runtime",
+    "Unity.Networking.Transport",
+    "Unity.ResourceManager",
+    "VContainer"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll",
+    "VContainer.SourceGenerator.dll"
+  ]
+}

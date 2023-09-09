@@ -1,0 +1,13 @@
+﻿{
+  "name": "FeatureNotBug.UI.Editor",
+  "rootNamespace": "FeatureNotBug.UI.Editor",
+  "references": [
+    "EditorTools",
+    "FeatureNotBug",
+    "FeatureNotBug.UI",
+    "Unity.Localization",
+    "Unity.Localization.Editor"
+  ],
+  "includePlatforms": ["Editor"],
+  "defineConstraints": ["UNITY_EDITOR"]
+}

@@ -1,0 +1,6 @@
+#logo {
+    align-self: center;
+    -unity-font-style: bold;
+    font-size: 96px;
+    -unity-text-align: upper-center;
+}

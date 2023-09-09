@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/HostContainer.uss?fileID=7433441132597879392&amp;guid=39002d6837114c50b128cd5612887d4c&amp;type=3#HostContainer" />
+    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:Label text="#Create Room Description" name="create-room-description" />
+    <ui:Label text="#Join Code Description" name="join-code-description" />
+    <FeatureNotBug.UI.Elements.AspectRatioElement mode="FitInParent" aspect-ratio="1" name="qr-code-container">
+        <ui:Image name="qr-code" />
+    </FeatureNotBug.UI.Elements.AspectRatioElement>
+    <ui:Button name="back" class="back-button" />
+</ui:UXML>

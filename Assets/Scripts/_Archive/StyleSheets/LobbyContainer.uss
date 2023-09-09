@@ -1,0 +1,58 @@
+:root {
+    justify-content: flex-end;
+}
+
+.member {
+    background-color: rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    margin-right: 64px;
+    margin-left: 64px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#ready-container {
+    width: 128px;
+    height: 128px;
+}
+
+#ready {
+    background-image: url('project://database/Assets/Sprites/Check.png?fileID=2800000&guid=ae4d7f3b66299bd468a6f1c4a82c5218&type=3#Check');
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+#role-container {
+    width: 128px;
+    height: 128px;
+}
+
+#role {
+    background-image: url('project://database/Assets/Sprites/Player.png?fileID=2800000&guid=efc0d3552e92d8543b4b68c16aed694e&type=3#Player');
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+#name-container {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#name {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+#buttons-container {
+}
+
+.button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 64px;
+    margin-left: 64px;
+}

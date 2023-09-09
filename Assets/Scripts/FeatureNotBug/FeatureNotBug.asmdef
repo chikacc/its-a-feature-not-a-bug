@@ -1,0 +1,25 @@
+﻿{
+  "name": "FeatureNotBug",
+  "rootNamespace": "FeatureNotBug",
+  "references": [
+    "EditorTools",
+    "MessagePipe",
+    "MessagePipe.VContainer",
+    "UniTask",
+    "UniTask.Addressables",
+    "UniTask.Linq",
+    "Unity.Addressables",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.InputSystem",
+    "Unity.Localization",
+    "Unity.Logging",
+    "Unity.Netcode.Runtime",
+    "Unity.Networking.Transport",
+    "Unity.ResourceManager",
+    "Unity.Services.Authentication",
+    "Unity.Services.Core",
+    "Unity.Services.Relay",
+    "VContainer"
+  ]
+}

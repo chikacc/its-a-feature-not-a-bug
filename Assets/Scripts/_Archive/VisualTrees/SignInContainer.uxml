@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/SignInContainer.uss?fileID=7433441132597879392&amp;guid=a1bc6c5c8eee97b4e82cd5de43d04228&amp;type=3#PressStartContainer" />
+    <ui:Button name="sign-in" style="-unity-text-align: middle-center; width: 100%; height: 100%;" />
+    <ui:Label text="#Press Start" name="sign-in-description" />
+</ui:UXML>

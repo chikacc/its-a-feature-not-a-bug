@@ -6,12 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 40a0241f369c5024c9ec5d800a4ebd55
-  - enabled: 1
-    path: Assets/Scenes/Player.unity
-    guid: b6fb6bfffe5f2ed4da9348e41fe8d685
-  - enabled: 1
-    path: Assets/Scenes/Designer.unity
-    guid: a5fd2ab6278235e448ecfea9ff478dde
-  m_configObjects: {}
+    path: Assets/Scenes/Main.unity
+    guid: 83f6313c144af4b4885e831176de6393
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: b1e445063a2793c429fd5c4cb3412ccf, type: 2}
+    com.unity.input.settings.actions: {fileID: 984582697047358493, guid: 00000000000000002000000000000000, type: 0}
+    com.unity.localization.settings: {fileID: 11400000, guid: d01423ca7af380949b7c519b1b0a117a, type: 2}
+  m_UseUCBPForAssetBundles: 0

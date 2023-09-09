@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/LogoContainer.uss?fileID=7433441132597879392&amp;guid=a3eb92c91f404a74b13f3c390fee570d&amp;type=3#LogoContainer" />
+    <FeatureNotBug.UI.Elements.LocalizedLabel table-reference="MainUI" table-entry-reference="Logo" name="logo" />
+</ui:UXML>

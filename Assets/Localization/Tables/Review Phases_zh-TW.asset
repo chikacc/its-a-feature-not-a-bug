@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: Review Phases_zh-TW
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh-TW
+  m_SharedData: {fileID: 11400000, guid: 2da1ff7e69dcf9146a46aea0180caf9f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 594458836992
+    m_Localized: 56205ef6eafc686469c739c7cc0afce1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18520700223488
+    m_Localized: 2f42c2850b9d30442896d11300c8b867
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18585011486720
+    m_Localized: 7d507efe9ed12db47bce9afcae5a145b
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18552274944000
+    m_Localized: a2c1e29061b58234dbeb8c2407d65262
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18631194968064
+    m_Localized: 3f0338156d119be45a58c61e9f794b02
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18602665312256
+    m_Localized: 30cb81599ea05be4ba70063a4a250b3a
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

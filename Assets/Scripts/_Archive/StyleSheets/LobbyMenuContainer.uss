@@ -1,0 +1,42 @@
+Button {
+    margin-top: 96px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 32px;
+    padding-right: 8px;
+    padding-bottom: 32px;
+    padding-left: 8px;
+    -unity-font-style: bold;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+}
+
+Label {
+    margin-top: 8px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    -unity-font-style: bold;
+    font-size: 48px;
+    color: rgb(154, 154, 154);
+    -unity-text-align: upper-center;
+}
+
+#create-room-container > Button {
+    background-color: rgb(242, 71, 38);
+}
+
+#join-room-container > Button {
+    background-color: rgb(43, 148, 230);
+}
+
+.container {
+    align-self: center;
+    width: 60%;
+}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/LobbyMenuContainer.uss?fileID=7433441132597879392&amp;guid=1cd0e2245189c8945bdba929ed54d5cc&amp;type=3#LobbyMenuContainer" />
+    <ui:VisualElement name="create-room-container" class="container">
+        <ui:Button text="#Create Room" name="create-room" />
+        <ui:Label text="#Create Room Description" name="create-room-description" />
+    </ui:VisualElement>
+    <ui:VisualElement name="join-room-container" class="container">
+        <ui:Button text="#Join Room" name="join-room" />
+        <ui:Label text="#Join Room Description" name="join-room-description" />
+    </ui:VisualElement>
+</ui:UXML>

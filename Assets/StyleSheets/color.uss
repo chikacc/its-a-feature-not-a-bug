@@ -1,0 +1,27 @@
+﻿:root {
+    --color-fg-default: #000000;
+
+    --color-bg-default: #ffffff;
+    --color-bg-overlay: rgba(0, 0, 0, 0.5);
+
+    --color-bg-transparent: rgba(0, 0, 0, 0);
+    --color-bg-initial: initial;
+
+    --color-border-default: #000000;
+}
+
+/* Foreground */
+
+.color-fg-default  { color: var(--color-fg-default); }
+
+/* Background */
+
+.color-bg-default  { background-color: var(--color-bg-default); }
+.color-bg-overlay  { background-color: var(--color-bg-overlay); }
+
+.color-bg-transparent { background-color: var(--color-bg-transparent); }
+.color-bg-initial { background-color: var(--color-bg-initial); }
+
+/* Border */
+
+.color-border-default { border-color: var(--color-border-default); }

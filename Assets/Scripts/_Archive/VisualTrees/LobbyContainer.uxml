@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/LobbyContainer.uss?fileID=7433441132597879392&amp;guid=51c80cb8313052748bddc46b0ce8d358&amp;type=3#LobbyContainer" />
+    <ui:ScrollView name="members-container">
+        <ui:VisualElement name="member" class="member">
+            <ui:VisualElement name="ready-container">
+                <ui:VisualElement name="ready" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="role-container">
+                <ui:VisualElement name="role" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="name-container" style="flex-grow: 1;">
+                <ui:Label text="Label" name="name" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:ScrollView>
+    <ui:VisualElement name="buttons-container">
+        <ui:Button name="create-room" class="button">
+            <ui:Label text="#Create Room Description" name="create-room-description" class="button-description" />
+            <ui:Label text="#Create Room" name="create-room" class="button-text" />
+        </ui:Button>
+        <ui:Button name="join-room" class="button">
+            <ui:Label text="#Join Room Description" name="join-room-description" class="button-description" />
+            <ui:Label text="#Join Room" name="join-room" class="button-text" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

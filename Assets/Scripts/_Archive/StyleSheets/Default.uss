@@ -1,0 +1,79 @@
+LocalizedLabel, Label, Button {
+    color: rgb(0, 0, 0);
+    -unity-font-definition: url('project://database/Assets/Fonts/NotoSansTC-Medium%20SDF.asset?fileID=11400000&guid=c76a414cf8bde9242874735471758a50&type=2#NotoSansTC-Medium SDF');
+}
+
+.button {
+    height: 200px;
+    background-color: rgb(255, 162, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    translate: 0 0px;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.button:hover {
+    translate: 0 0px;
+}
+
+.button:active {
+    translate: 0 4px;
+}
+
+.button-description {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+
+.button-text {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    -unity-font-style: bold;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    -unity-text-align: upper-center;
+}
+
+.back-button {
+    background-image: url('project://database/Assets/Sprites/Reply.png?fileID=2800000&guid=8ad3fcaa24c397b4183ec3e987684ea4&type=3#Reply');
+    position: absolute;
+    bottom: 48px;
+    left: 48px;
+    width: 96px;
+    height: 96px;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.close-button {
+    background-image: url('project://database/Assets/Sprites/Cross.png?fileID=2800000&guid=a1831d32175f0dd4d823351e477899c3&type=3#Cross');
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 96px;
+    height: 96px;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="BackgroundContainer" src="project://database/Assets/UI/Templates/BackgroundContainer.uxml?fileID=9197481963319205126&amp;guid=2ff778a860a109f44bc2e3cd31617584&amp;type=3#BackgroundContainer" />
+    <ui:Template name="LogoContainer" src="project://database/Assets/UI/Templates/LogoContainer.uxml?fileID=9197481963319205126&amp;guid=a61b4347277fbd54593167795982f48b&amp;type=3#LogoContainer" />
+    <ui:Template name="LanguageContainer" src="project://database/Assets/UI/Templates/LanguageContainer.uxml?fileID=9197481963319205126&amp;guid=f71cd475893ffbe45952a7eda8aa7d18&amp;type=3#LanguageContainer" />
+    <ui:Template name="SignInContainer" src="project://database/Assets/UI/Templates/SignInContainer.uxml?fileID=9197481963319205126&amp;guid=cbc5b30a25709684fbcf3c5bac0ac310&amp;type=3#SignInContainer" />
+    <ui:Template name="LobbyContainer" src="project://database/Assets/UI/Templates/LobbyContainer.uxml?fileID=9197481963319205126&amp;guid=0893780b7080e974e89c2ad5f5d8ddaf&amp;type=3#LobbyContainer" />
+    <ui:Template name="RoomContainer" src="project://database/Assets/UI/Templates/RoomContainer.uxml?fileID=9197481963319205126&amp;guid=aa1349e8610329b48affcba095bd54ba&amp;type=3#RoomContainer" />
+    <ui:Template name="QrCodeContainer" src="project://database/Assets/UI/Templates/QrCodeContainer.uxml?fileID=9197481963319205126&amp;guid=2d504aabde36ec84e955efc4d9930086&amp;type=3#QrCodeContainer" />
+    <ui:Template name="WebCamContainer" src="project://database/Assets/UI/Templates/WebCamContainer.uxml?fileID=9197481963319205126&amp;guid=7edf31de22c32f348b937bf471b0d4e2&amp;type=3#WebCamContainer" />
+    <Style src="project://database/Assets/UI/StyleSheets/MainContainer.uss?fileID=7433441132597879392&amp;guid=ad5cc7aab526a17489395796ae1a5029&amp;type=3#MainContainer" />
+    <ui:Instance template="BackgroundContainer" name="background-container" class="full" style="display: none;" />
+    <ui:Instance template="LogoContainer" name="logo-container" class="head" />
+    <ui:Instance template="LanguageContainer" name="language-container" class="full" />
+    <ui:Instance template="SignInContainer" name="sign-in-container" class="body" style="display: flex;" />
+    <ui:Instance template="LobbyContainer" name="lobby-container" class="body" style="display: none;" />
+    <ui:Instance template="RoomContainer" name="room-container" class="body" style="display: none;" />
+    <ui:Instance template="QrCodeContainer" name="qr-code-container" class="full" style="display: none;" />
+    <ui:Instance template="WebCamContainer" name="web-cam-container" class="full" style="display: none;" />
+</ui:UXML>

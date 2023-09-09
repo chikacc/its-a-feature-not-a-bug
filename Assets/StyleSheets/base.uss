@@ -1,0 +1,7 @@
+.hidden {
+    display: none;
+}
+
+.unity-collection-view__item.unity-list-view__item:hover {
+    background-color: initial;
+}

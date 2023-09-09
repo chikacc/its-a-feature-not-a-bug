@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "Localization-Asset-Tables-\u4E2D\u6587 (\u53F0\u7063)"
+  m_EditorClassIdentifier: 
+  m_GroupName: "Localization-Asset-Tables-\u4E2D\u6587 (\u53F0\u7063)"
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6d8457e9b73467d48a46bde6dfdebf5e
+  m_SerializeEntries:
+  - m_GUID: 1c73e50b970b58f48bcc955a0cb75830
+    m_Address: Visual Tree Assets_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1917bece07a5a84418901d45068e2bf5
+    m_Address: Review Phases_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 5ec95a29f19c3c34d90b72433f1084e5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2cff37c6dc4bb6b478c65ca55c0b115e, type: 2}
+    - {fileID: 11400000, guid: 58d5989c449f0ac42a2729db2534a067, type: 2}

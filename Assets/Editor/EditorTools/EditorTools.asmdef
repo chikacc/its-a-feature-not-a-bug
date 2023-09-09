@@ -1,0 +1,6 @@
+﻿{
+  "name": "EditorTools",
+  "rootNamespace": "EditorTools",
+  "includePlatforms": ["Editor"],
+  "defineConstraints": ["UNITY_EDITOR"]
+}

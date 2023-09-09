@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<linker>
+<!--    <assembly fullname="UnityEngine.UIElementsModule">-->
+<!--        <type fullname="UnityEngine.UIElements.Binding" preserve="all" />-->
+<!--        <type fullname="UnityEngine.UIElements.DataBinding" preserve="all" />-->
+<!--        <type fullname="UnityEngine.UIElements.DataSourceContext" preserve="all" />-->
+<!--    </assembly>-->
+</linker>

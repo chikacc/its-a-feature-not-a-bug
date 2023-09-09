@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/BackgroundContainer.uss?fileID=7433441132597879392&amp;guid=1f9e97b08a32e61418de5e9d36e3ae43&amp;type=3#BackgroundContainer" />
+    <ui:Image name="background" style="flex-grow: 1;" />
+</ui:UXML>
