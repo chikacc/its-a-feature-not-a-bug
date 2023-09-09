@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0e902d3735420fa76f3d8048f60be3, type: 3}
+  m_Name: Team A Release
+  m_EditorClassIdentifier: 
+  AccentColor: {r: 0.98039216, g: 0.78039217, b: 0.0627451, a: 1}
+  Title:
+    m_TableReference:
+      m_TableCollectionName: GUID:d3f06e317aa6afc4d9c238dad619fcbd
+    m_TableEntryReference:
+      m_KeyId: 42931306233856
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  Description:
+    m_TableReference:
+      m_TableCollectionName: GUID:d3f06e317aa6afc4d9c238dad619fcbd
+    m_TableEntryReference:
+      m_KeyId: 42983542095872
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  TimerDuration: 120
+  Next:
+    m_TableReference:
+      m_TableCollectionName: GUID:d3f06e317aa6afc4d9c238dad619fcbd
+    m_TableEntryReference:
+      m_KeyId: 43000533221376
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  NextReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:2da1ff7e69dcf9146a46aea0180caf9f
+    m_TableEntryReference:
+      m_KeyId: 18602665312256
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  references:
+    version: 2
+    RefIds: []

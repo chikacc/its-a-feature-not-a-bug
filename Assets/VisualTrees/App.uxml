@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:fnb="FeatureNotBug">
+    <fnb:SafeArea class="color-bg-default" />
+    <fnb:SafeArea picking-mode="Ignore">
+        <ui:Button style="position: absolute; top: 0; right: 0; height: 64px; font-size: 30%; background-color: clear; border-width: 0;">
+            <Bindings>
+                <ui:DataBinding property="text"
+                                data-source-type="FeatureNotBug.LocalizationViewModel, FeatureNotBug"
+                                data-source-path="CurrentLocale" binding-mode="ToTarget" />
+                <fnb:CommandBinding property="clicked"
+                                    data-source-type="FeatureNotBug.LocalizationViewModel, FeatureNotBug"
+                                    data-source-path="NextLocaleCommand" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Button>
+    </fnb:SafeArea>
+</ui:UXML>

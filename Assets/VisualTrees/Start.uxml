@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:l="UnityEngine.Localization" xmlns:fnb="FeatureNotBug">
+    <ui:Button class="flex-grow-1" style="margin: 0; padding: 0; background-color: initial; border-width: 0;">
+        <Bindings>
+            <fnb:CommandBinding property="clicked"
+                                data-source-type="FeatureNotBug.StartViewModel, FeatureNotBug"
+                                data-source-path="StartCommand" binding-mode="ToTarget" />
+        </Bindings>
+        <ui:TextElement class="position-absolute flex-self-center"
+                        style="top: 15%; -unity-font-style: bold; font-size: 100%; -unity-text-align: upper-center; color: rgb(0, 0, 0);">
+            <Bindings>
+                <l:LocalizedString property="text" table="Start" entry="Title" />
+            </Bindings>
+        </ui:TextElement>
+        <ui:TextElement class="position-absolute flex-self-center"
+                        style="bottom: 25%; font-size: 40%; -unity-text-align: upper-center; color: rgb(128, 128, 128);">
+            <Bindings>
+                <l:LocalizedString property="text" table="Start" entry="Tap to Start" />
+            </Bindings>
+        </ui:TextElement>
+    </ui:Button>
+</ui:UXML>
